@@ -1,9 +1,75 @@
 {
-  "items": [],
-  "categories": [],
+  "items": [
+    {
+      "id": "tagliatelle-trufa",
+      "nombre": "Tagliatelle alla Tartufo",
+      "descripcion": "Pasta fresca hecha a mano cada mañana, salteada con mantequilla de trufa negra, parmesano reggiano de 24 meses y un toque de aceite de oliva virgen extra. Nuestra receta insignia desde 1985.",
+      "precio": 28000,
+      "categoria": "Pastas",
+      "imagen_url": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1200&q=80",
+      "imagenes": [
+        "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=1200&q=80"
+      ],
+      "recomendado_chef": true
+    },
+    {
+      "id": "risotto-funghi",
+      "nombre": "Risotto ai Funghi Porcini",
+      "descripcion": "Arroz carnaroli cocido lentamente con caldo de verduras casero, hongos porcini importados de Italia y mantecado con parmesano y vino blanco. Servido en plato hondo tradicional.",
+      "precio": 26000,
+      "categoria": "Risottos",
+      "imagen_url": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=1200&q=80",
+      "especialidad_casa": true
+    },
+    {
+      "id": "ossobuco",
+      "nombre": "Ossobuco alla Milanese",
+      "descripcion": "Jarrete de ternera braseado durante 4 horas en vino tinto, hierbas aromáticas y verduras de temporada. Acompañado de gremolata fresca y puré de papa trufado.",
+      "precio": 42000,
+      "categoria": "Carnes",
+      "imagen_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=80",
+      "recomendado_chef": true
+    },
+    {
+      "id": "burrata",
+      "nombre": "Burrata con Prosciutto",
+      "descripcion": "Burrata cremosa de Puglia servida sobre prosciutto di Parma de 18 meses, rúcula fresca, tomates cherry confitados y reducción de balsámico de Módena.",
+      "precio": 32000,
+      "categoria": "Entradas",
+      "imagen_url": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=1200&q=80"
+    },
+    {
+      "id": "pizza-margherita",
+      "nombre": "Pizza Margherita Napoletana",
+      "descripcion": "Masa madre fermentada 48 horas, tomate San Marzano, mozzarella fior di latte, albahaca fresca y aceite de oliva. Horneada en horno de leña a 450 grados.",
+      "precio": 24000,
+      "categoria": "Pizzas",
+      "imagen_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=1200&q=80"
+    },
+    {
+      "id": "tiramisu",
+      "nombre": "Tiramisù della Casa",
+      "descripcion": "El clásico postre italiano preparado con bizcochos savoiardi bañados en café espresso, crema de mascarpone, cacao amargo y un toque de Marsala.",
+      "precio": 18000,
+      "categoria": "Postres",
+      "imagen_url": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=1200&q=80",
+      "especialidad_casa": true
+    }
+  ],
+  "categories": [
+    { "id": "entradas", "nombre": "Entradas" },
+    { "id": "pastas", "nombre": "Pastas" },
+    { "id": "risottos", "nombre": "Risottos" },
+    { "id": "pizzas", "nombre": "Pizzas" },
+    { "id": "carnes", "nombre": "Carnes" },
+    { "id": "postres", "nombre": "Postres" }
+  ],
   "config": {
     "estado_servicio": "activo",
-    "promo_activa": "false"
+    "promo_activa": "false",
+    "promo_texto": "",
+    "promo_imagen": ""
   },
   "tema": {}
 }
